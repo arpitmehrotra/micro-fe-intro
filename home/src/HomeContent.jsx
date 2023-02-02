@@ -22,7 +22,7 @@ export default function HomeContent() {
           <div className="flex">
             <div className="flex-grow font-bold">
               <Link to={`/product/${product.id}`}>
-                <a>{product.name}</a>
+                <span>{product.name}</span>
               </Link>
             </div>
             <div className="flex-end">{currency.format(product.price)}</div>
